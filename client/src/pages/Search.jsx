@@ -221,7 +221,7 @@ export default function Search() {
               
             >
               <option className='bg-cyan-50 appearance-none text-colorPrimary' value='regularPrice_desc'>Price high to low</option>
-              <option value='regularPrice_asc'>Price low to hight</option>
+              <option value='regularPrice_asc'>Price low to high</option>
               <option value='createdAt_desc'>Latest</option>
               <option value='createdAt_asc'>Oldest</option>
             </select>
