@@ -46,7 +46,7 @@ export default function SignUp() {
     <div className='pt-20 p-3 max-w-lg mx-auto'>
       <h1 className='text-3xl text-center font-semibold mt-7 mb-2 text-colorPrimary'>Sign In</h1>
       <p className='text-colorDarkGray text-sm mb-5 text-center'>
-        (Login if you want to resister your property!)
+        (Login if you want to register your property!)
       </p>
       <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
         <input type='email' placeholder='email'
